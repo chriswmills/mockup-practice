@@ -26,13 +26,15 @@ header li {float:left;
 
 aside ul  {float:left;
           width:20%;
-          padding-bottom: 5rem;
+          min-height: 100%;
+          border-style: dotted;
           background-color: black;
           text-align: center;
           color: white;
           list-style: none;
           line-height: 2.5rem;
 }
+
 
 li#padlink {padding-top: 4.5rem;}
 
