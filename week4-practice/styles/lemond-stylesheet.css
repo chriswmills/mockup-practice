@@ -24,11 +24,9 @@ header li {float:left;
 
 
 
-
-
 aside ul  {float:left;
           width:20%;
-          height: 70%;
+          padding-bottom: 5rem;
           background-color: black;
           text-align: center;
           color: white;
@@ -37,6 +35,7 @@ aside ul  {float:left;
 }
 
 li#padlink {padding-top: 4.5rem;}
+
 
 article {background-color: rgb(225,228,233);
         width:100%;
