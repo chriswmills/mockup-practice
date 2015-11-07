@@ -1,4 +1,8 @@
 * {font-family: sans-serif;}
+* {box-sizing: border-box;}
+* {margin: 0;
+    padding: 0;
+}
 
 header h1 {margin-bottom: 0px;
           text-align: center;
@@ -9,7 +13,7 @@ header h1 {margin-bottom: 0px;
 }
 
 header li {float:left;
-          width: 13%;
+          width: 14.285%;
           text-align: center;
           color: white;
           list-style: none;
@@ -17,15 +21,29 @@ header li {float:left;
           border-color: rgb(108,77,151);
           border-right-style: solid;
   }
-/* don't understand why the ul/li doesn't align left with header h1...browser? tried to solve in chrome dev mode, no luck */
+
 
 li#lastlink {border-right: none;}
-/* there is prob a more elegant way to achieve this*/
+/* not sure of better way to do this*/
+
 
 aside ul  {float:left;  
-          width:25%;
+          width:20%;
+          height: 70%;
+          background-color: rgb(193,176,212);
           text-align: center;
-          margin-top: 5%;
+          color: white;
           list-style: none;
-          border-style: dotted;
+          line-height: 2rem;
 }
+
+article {background-color: rgb(225,228,233);
+        width:100%;
+
+}
+
+
+
+
+
+
